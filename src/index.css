@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background: #030877;
-  color: #ddd;
+  background: #F7F8FA;
+  color: #47494a;
   text-align: center;
 }
 .App{
@@ -10,38 +10,40 @@ body {
   margin: 0 auto;
 }
 h1{
-  color: #38ACEC;
+  color: #47494a;
   font-size: 4em;
   letter-spacing: 2px;
 }
 button{
   margin: 0 10px;
   background: transparent;
-  border: 3px solid #ccc;
+  border: 1px solid #FFA116;
   border-radius: 20px;
   padding: 10px;
-  color: #ccc;
+  color: #FFA116;
   font-size: 1.2em;
   cursor: pointer;
 }
 button:hover{
-  color: #fff;
-  border-color: #fff;;
+  color: #FFA116;
+  border-color: rgb(97, 95, 95);
 }
 .content{
   text-align: left;
 }
 .card{
   padding: 8px 16px;
-  background: #02075d;
+  background: #FFFFFF;
   margin: 16px 0;
   border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .card p{
   margin: 6px 0;
-  color: #999;
+  color: #47494a;
 }
 .card h3{
   margin: 10px 0;
-  color: #38ACEC;
+  color: #FFA116;
 }
+
